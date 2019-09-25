@@ -17,11 +17,19 @@ public enum  ResultCode implements IErrorCode{
 
     @Override
     public long getCode() {
-        return 0;
+        return code;
     }
 
     @Override
     public String getMessage() {
-        return null;
+        return message;
+    }
+
+    public void setCode(long code) {
+        this.code = code;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
