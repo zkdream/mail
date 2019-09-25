@@ -3,15 +3,14 @@ package com.zk.mall.mbg.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pmsBrandExample {
-
+public class PmsBrandExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public pmsBrandExample() {
+    public PmsBrandExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 

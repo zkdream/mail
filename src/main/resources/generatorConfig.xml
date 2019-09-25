@@ -32,13 +32,13 @@
         <!--指定生成model的路径-->
         <javaModelGenerator targetPackage="com.zk.mall.mbg.model" targetProject="src\main\java"/>
         <!--指定生成mapper.xml的路径-->
-        <sqlMapGenerator targetPackage="com.zk.mall.mbg.mapper" targetProject="src\main\resources"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.zk.mall.mbg.mapper"
                              targetProject="src\main\java"/>
         <!--&lt;!&ndash;生成全部表tableName设为%&ndash;&gt;-->
-        <table tableName="pms_brand" domainObjectName="pmsBrand">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        <table tableName="pms_brand" domainObjectName="PmsBrand">
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
         </table>
     </context>
 </generatorConfiguration>

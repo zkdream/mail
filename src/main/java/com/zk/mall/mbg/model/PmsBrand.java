@@ -2,13 +2,13 @@ package com.zk.mall.mbg.model;
 
 import java.io.Serializable;
 
-public class pmsBrand implements Serializable {
+public class PmsBrand implements Serializable {
     private Long id;
 
     private String name;
 
     /**
-     * 首字母
+     * é¦–å­—æ¯
      *
      * @mbggenerated
      */
@@ -17,7 +17,7 @@ public class pmsBrand implements Serializable {
     private String sort;
 
     /**
-     * 是否为品牌制造商：0->不是；1->是
+     * æ˜¯å¦ä¸ºå“ç‰Œåˆ¶é€ å•†ï¼š0->ä¸æ˜¯ï¼›1->æ˜¯
      *
      * @mbggenerated
      */
@@ -26,7 +26,7 @@ public class pmsBrand implements Serializable {
     private Integer showStatus;
 
     /**
-     * 产品数量
+     * äº§å“æ•°é‡
      *
      * @mbggenerated
      */
@@ -35,14 +35,14 @@ public class pmsBrand implements Serializable {
     private Integer productCommentCount;
 
     /**
-     * 品牌logo
+     * å“ç‰Œlogo
      *
      * @mbggenerated
      */
     private String logo;
 
     /**
-     * 专区大图
+     * ä¸“åŒºå¤§å›¾
      *
      * @mbggenerated
      */
