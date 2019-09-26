@@ -1,5 +1,6 @@
 package com.zk.mall.mbg.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class PmsBrand implements Serializable {
@@ -7,47 +8,28 @@ public class PmsBrand implements Serializable {
 
     private String name;
 
-    /**
-     * é¦–å­—æ¯
-     *
-     * @mbggenerated
-     */
+    @ApiModelProperty(value = "首字母")
     private String firstLetter;
 
     private String sort;
 
-    /**
-     * æ˜¯å¦ä¸ºå“ç‰Œåˆ¶é€ å•†ï¼š0->ä¸æ˜¯ï¼›1->æ˜¯
-     *
-     * @mbggenerated
-     */
+    @ApiModelProperty(value = "是否为品牌制造商：0->不是；1->是")
     private Integer factoryStatus;
 
     private Integer showStatus;
 
-    /**
-     * äº§å“æ•°é‡
-     *
-     * @mbggenerated
-     */
+    @ApiModelProperty(value = "产品数量")
     private Integer productCount;
 
     private Integer productCommentCount;
 
-    /**
-     * å“ç‰Œlogo
-     *
-     * @mbggenerated
-     */
+    @ApiModelProperty(value = "品牌logo")
     private String logo;
 
-    /**
-     * ä¸“åŒºå¤§å›¾
-     *
-     * @mbggenerated
-     */
+    @ApiModelProperty(value = "专区大图")
     private String bigPic;
 
+    @ApiModelProperty(value = "品牌介绍")
     private String brandStory;
 
     private static final long serialVersionUID = 1L;
