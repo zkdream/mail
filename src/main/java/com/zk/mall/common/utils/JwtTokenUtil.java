@@ -32,7 +32,8 @@ public class JwtTokenUtil {
         return Jwts.builder()
                 .setClaims(claims)
                 .setExpiration(generateExpirationDate())
-                .signWith(SignatureAlgorithm.ES256, secret)
+                .signWith(SignatureAlgorithm.HS512, secret)
+//                .signWith(SignatureAlgorithm.ES256, secret)
                 .compact();
     }
 
